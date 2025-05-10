@@ -41,3 +41,4 @@ the system by:
 ○ Calculating and displaying the total budget of a College.
 
 # UML Class Diagram
+![CompositeDesignPatternUML](https://github.com/user-attachments/assets/87a17b2e-0855-4fe5-8f20-2c39bb3825f2)
