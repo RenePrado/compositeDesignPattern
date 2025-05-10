@@ -9,21 +9,21 @@ public class NEUApp {
         Teacher t2 = new Teacher("Professor Jerry", "Computer Science", 80000);
 
         Department it = new Department("Information Technology");
-        it.addUnit(t1);
-        it.addUnit(s1);
-        it.addUnit(s2);
+        it.add(t1);
+        it.add(s1);
+        it.add(s2);
 
         Department cs = new Department("Computer Science");
-        cs.addUnit(t2);
-        cs.addUnit(s3);
-        cs.addUnit(s4);
+        cs.add(t2);
+        cs.add(s3);
+        cs.add(s4);
 
         College cics = new College("College of Computer Studies");
-        cics.addUnit(it);
-        cics.addUnit(cs);
+        cics.add(it);
+        cics.add(cs); 
 
         cics.getDetails();
-        System.out.println("\nTotal Students: " + cics.getStudentCount());
+        System.out.println("\nTotal Students: " + cics.getNumberOfStudents());
         System.out.println("Total Budget: " + cics.getBudget());
     }
 }

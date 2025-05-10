@@ -8,7 +8,7 @@ public class Department implements NEUComponent {
         this.name = name;
     }
 
-    public void addUnit(NEUComponent unit) {
+    public void add(NEUComponent unit) {
         units.add(unit);
     }
 
@@ -21,10 +21,10 @@ public class Department implements NEUComponent {
     }
 
     @Override
-    public int getStudentCount() {
+    public int getNumberOfStudents() {
         int count = 0;
         for (NEUComponent unit : units) {
-            count += unit.getStudentCount();
+            count += unit.getNumberOfStudents();
         }
         return count;
     }

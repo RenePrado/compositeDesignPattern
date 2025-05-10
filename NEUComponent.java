@@ -1,5 +1,5 @@
 public interface NEUComponent {
     void getDetails();
-    int getStudentCount();
+    int getNumberOfStudents();
     double getBudget();
 }

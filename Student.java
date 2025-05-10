@@ -15,7 +15,7 @@ public class Student implements NEUComponent {
     }
 
     @Override
-    public int getStudentCount() {
+    public int getNumberOfStudents() {
         return 1;
     }
 
